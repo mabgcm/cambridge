@@ -1446,3 +1446,28 @@ iframe#ifr2 {
   height:100vh;
   margin-top: -235px;
 }
+@media (max-width: 1024px) {
+  iframe#ifr1 {
+    margin-top: -230px;
+  }
+}
+@media (max-width: 1007px) {
+  iframe#ifr1 {
+    margin-top: -170px;
+  }
+}
+@media (max-width: 496px) {
+  iframe#ifr1 {
+    margin-top: -165px;
+  }
+}
+@media (max-width: 495px) {
+  iframe#ifr1 {
+    margin-top: -135px;
+  }
+}
+@media (max-width: 280px) {
+  iframe#ifr1 {
+    margin-top: -160px;
+  }
+}
