@@ -1426,7 +1426,7 @@ section {
   grid-template-rows: 1fr;
   grid-template-columns: 1fr;
   grid-gap: 1px;
-  height: 85vh;
+  height: 93vh;
   overflow:scroll;
   overflow-x: hidden;
   background-color: #f2f1f0;
