@@ -14,7 +14,7 @@ a {
 }
 
 a:hover {
-  color: #72c393;
+  color: rgb(0,35,121);
   text-decoration: none;
 }
 
@@ -135,7 +135,9 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: red;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: underline;
 }
 .navbar .dropdown ul {
   display: block;
@@ -163,7 +165,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: red;
+  color: #fff;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -318,7 +320,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 #hero h2 {
-  color: #eee;
+  color: #fff;
   margin-bottom: 40px;
   font-size: 22px;
 }
@@ -331,8 +333,9 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 28px;
   border-radius: 5px;
   transition: 0.5s;
-  border: 2px solid rgb(0, 35, 121);
+  border: 2px solid rgb(220, 20, 41);
   color: #fff;
+  background-color: rgb(200,20,41);
 }
 #hero .btn-get-started:hover {
   background: rgb(0,35,121);
@@ -402,7 +405,7 @@ section {
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #4eb478;
+  color: rgb(0,35,121);
   position: relative;
   z-index: 2;
 }
@@ -457,7 +460,7 @@ section {
 .about .content .icon-box i {
   font-size: 48px;
   float: left;
-  color: #4eb478;
+  color: rgb(200,20,41);
 }
 .about .content .icon-box p {
   font-size: 15px;
@@ -542,7 +545,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.6), rgba(0, 0, 0, 0.8)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(0, 35, 121, 0.5), rgba(0, 0, 0, 0.8)), url("../img/cta-bg.jpeg") fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -568,8 +571,8 @@ section {
   color: #fff;
 }
 .cta .cta-btn:hover {
-  background: #4eb478;
-  border: 2px solid #4eb478;
+  background: rgb(200,20,41);
+  border: 2px solid rgb(200,20,41);
 }
 
 /*--------------------------------------------------------------
@@ -635,7 +638,7 @@ section {
   transition: all 0.3s ease-in-out;
 }
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #4eb478;
+  color: rgb(200,20,41);
 }
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
@@ -773,7 +776,7 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/testimonials-bg.jpg") no-repeat;
+  background: url("../img/testimonials-bg.jpeg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -785,7 +788,7 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(17, 17, 17, 0.7);
+  background: rgba(0, 35, 121, 0.7);
 }
 .testimonials .section-header {
   margin-bottom: 40px;
@@ -845,7 +848,7 @@ section {
   opacity: 1;
 }
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #4eb478;
+  background-color: rgb(200,20,41);
 }
 @media (min-width: 1024px) {
   .testimonials {
@@ -955,7 +958,7 @@ section {
 }
 .pricing h4 {
   font-size: 46px;
-  color: #4eb478;
+  color: rgb(0,35,121);
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 25px;
@@ -1003,13 +1006,13 @@ section {
   border: 2px solid #dddddd;
 }
 .pricing .get-started-btn:hover {
-  color: #4eb478;
-  border-color: #4eb478;
+  color: rgb(0, 35, 121);
+  border-color: rgb(0, 35, 121);
 }
 .pricing .featured {
   z-index: 10;
   margin: -30px -5px 0 -5px;
-  background: #4eb478;
+  background: rgba(0, 35, 121, 0.7);
 }
 .pricing .featured h3, .pricing .featured h4, .pricing .featured h4 span, .pricing .featured ul, .pricing .featured ul .na, .pricing .featured ul i, .pricing .featured ul .na i {
   color: #fff;
@@ -1019,7 +1022,7 @@ section {
   color: #fff;
 }
 .pricing .featured .get-started-btn:hover {
-  color: #4eb478;
+  color: rgb(200,20,41);
   background: #fff;
 }
 @media (max-width: 992px) {
@@ -1045,11 +1048,11 @@ section {
 # F.A.Q
 --------------------------------------------------------------*/
 .faq {
-  background: #f3faf6;
+  background: rgba(0,35,121,0.05);
   padding: 60px 0;
 }
 .faq .section-title span {
-  color: #f1f1f1;
+  color: rgba(0,35,121,0.07);
 }
 .faq .faq-list {
   padding: 0 100px;
@@ -1083,7 +1086,7 @@ section {
   position: absolute;
   right: 0;
   left: 20px;
-  color: #a8dabc;
+  color: rgb(0,35,121);
 }
 .faq .faq-list .icon-show, .faq .faq-list .icon-close {
   font-size: 24px;
@@ -1102,7 +1105,7 @@ section {
   color: #343a40;
 }
 .faq .faq-list a.collapsed:hover {
-  color: #4eb478;
+  color: rgb(200,20,41);
 }
 .faq .faq-list a.collapsed .icon-show {
   display: inline-block;
@@ -1126,10 +1129,10 @@ section {
 }
 .contact .info-box i {
   font-size: 32px;
-  color: #4eb478;
+  color: rgb(0,35,121);
   border-radius: 50%;
   padding: 8px;
-  border: 2px dotted #cbe9d8;
+  border: 2px dotted rgb(200,20,41);
   float: left;
 }
 .contact .info-box h3 {
@@ -1200,7 +1203,7 @@ section {
   padding: 12px 15px;
 }
 .contact .php-email-form button[type=submit] {
-  background: #4eb478;
+  background: rgb(0,35,121);
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1208,7 +1211,7 @@ section {
   border-radius: 5px;
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: #45a36c;
+  background: rgb(200,20,41);
 }
 @-webkit-keyframes animate-loading {
   0% {
@@ -1280,11 +1283,11 @@ section {
   padding: 0 0 30px 0;
   color: #d0d0d0;
   font-size: 14px;
-  background: #111111;
+  background: rgb(0,35,121);
 }
 #footer .footer-newsletter {
   padding: 50px 0;
-  background: #111111;
+  background: rgb(0,35,121);
   text-align: center;
   font-size: 15px;
   color: #fff;
@@ -1319,18 +1322,19 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px 3px 20px;
-  background: #4eb478;
+  background: rgb(200,20,41);
   color: #fff;
   transition: 0.3s;
   border-radius: 0 5px 5px 0;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 #footer .footer-newsletter form input[type=submit]:hover {
-  background: #45a36c;
+  background: rgba(200,20,41, .5);
+  color: #1b1b1b;
 }
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #1b1b1b;
+  background: rgb(0,35,121);
   color: #fff;
 }
 #footer .footer-top .footer-contact {
@@ -1386,12 +1390,12 @@ section {
 }
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #4eb478;
+  color: #fff;
 }
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #373737;
+  background: rgb(200,20,41);
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1416,7 +1420,28 @@ section {
   text-align: center;
   font-size: 13px;
 }
-.camb iframe {
+/* Cambridge Iframe */
+#grid {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  grid-gap: 1px;
+  height: 85vh;
+  overflow:scroll;
+  overflow-x: hidden;
+  background-color: #f2f1f0;
+}
+#grid > div > iframe {
   width: 100vw;
-  height: 90vh;
+  height: 170vh;
+}
+iframe#ifr1 {
+  width: 100vh;
+  height:100vh;
+  margin-top: -220px;
+}
+iframe#ifr2 {
+  width: 100vh;
+  height:100vh;
+  margin-top: -235px;
 }
