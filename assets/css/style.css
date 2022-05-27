@@ -633,7 +633,7 @@ section {
 }
 
 .features .card:hover .card-title a {
-  color: #4eb478;
+  color: rgb(200, 20, 41);
 }
 
 @media (max-width: 1024px) {
@@ -1665,8 +1665,8 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #4eb478;
-  color: #fff;
+  background: #fff;
+  color: rgb(200, 20, 41);
   text-decoration: none;
 }
 
@@ -1679,6 +1679,10 @@ section {
   float: right;
   text-align: center;
   font-size: 13px;
+}
+
+#footer .credits a:hover {
+  color: rgb(200, 20, 41);
 }
 
 /* Cambridge Iframe */
