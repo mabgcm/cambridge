@@ -1739,3 +1739,34 @@ iframe#ifr2 {
     margin-top: -160px;
   }
 }
+
+/* Logo Media Queries */
+@media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
+  .logo img {
+    height: 100%;
+  }
+}
+
+@media (max-width: 1007px) {
+  iframe#ifr1 {
+    margin-top: -170px;
+  }
+}
+
+@media (max-width: 496px) {
+  iframe#ifr1 {
+    margin-top: -165px;
+  }
+}
+
+@media (max-width: 495px) {
+  iframe#ifr1 {
+    margin-top: -135px;
+  }
+}
+
+@media (max-width: 280px) {
+  iframe#ifr1 {
+    margin-top: -160px;
+  }
+}
