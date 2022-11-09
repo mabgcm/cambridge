@@ -31,6 +31,16 @@
     />
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
     <link href="assets/css/style.css" rel="stylesheet" />
+    
+    <script type="text/javascript">
+        window.onload= function () {
+          timeout = setTimeout(OpenBootstrapPopup, 2000)
+            // OpenBootstrapPopup();
+        };
+        function OpenBootstrapPopup() {
+            $("#modal").modal('show');
+        }
+    </script>
   </head>
 
   <body>
@@ -67,6 +77,39 @@
     </script>
     
     <div class="wrap">
+      
+      <!-- Promo Modal -->
+
+      <div id="modal" class="modal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="modal-body">
+              <h3 class="text-center mb-0 text-uppercase text-danger">Chào mừng bạn đến với</h3>
+              <h2 class="text-center mt-0 text-uppercase text-primary">Tower Cambridge!</h2>
+              <div class="row d-flex">
+                <div class="col-7">
+                  <h5 class="mt-4 mb-5 text-uppercase text-success">Khóa học 2023 sắp bắt đầu, đăng ký học thử online ngay hôm nay để nhận được 10% giảm giá học phí</h5>
+                  <!-- <h6 class="mb-5 text-uppercase" >đăng ký học thử online ngay hôm nay để nhận được 10% giảm giá học phí</h6> -->
+                  <h5 class="text-uppercase fs-4 text-danger">Chương trình áp dụng với 100 khách hàng đăng ký đầu tiên, nhanh tay lên nào !.</h5>
+                  
+                </div>
+                <div class="col-5">
+                  <img src="https://worldoffun.cambridge.org/themes/honest/assets/img/monkey_movers.png" alt="">
+                  <p class="mt-4  mb-0 fs-6 text-capitalize"><small>Thứ Hai đến Thứ Sáu:</small></p>
+                  <h5>6:00 - 21:00</h5>
+                  <p class="mt-1 mb-0 text-capitalize"><small>Thứ bảy - chủ nhật:</small></p>
+                  <h5 class="mt-6">9:00 - 19:00</h5>
+                </div>
+              <div class="row text-center"><a class="pop1-btn mx-3 text-danger" style="bottom: 3%;" href="vn_demoLesson.html" target="_blank">Đăng Ký Ngay!</a></div>
+                
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
 
       <!-- ======= Hero Section ======= -->
       <!-- <section id="hero">
