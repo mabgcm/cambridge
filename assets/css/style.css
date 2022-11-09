@@ -1815,3 +1815,47 @@ iframe#ifr2 {
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(4px);
 }
+
+.pop1-btn {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 5px;
+  transition: 0.3s;
+  margin-top: 10px;
+  border: 2px solid #000;
+  color: rgb(254, 165, 187);
+
+}
+
+.pop1-btn:hover {
+  background: rgb(254, 165, 187);
+  border: 2px solid rgb(200, 20, 41);
+  text-decoration: none;
+  color: #fff;
+}
+
+.modal-content {
+  background: pink;
+  background-image: url('/assets/img/modalbck.png');
+  background-size: cover;
+}
+
+.modal-body img {
+  width: 150px;
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+@media (max-width: 480px) {
+  .modal {
+    width: 410px;
+    height: 650px;
+  }
+
+  .modal-body img {
+    width: 140px;
+  }
+}
