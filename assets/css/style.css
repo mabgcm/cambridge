@@ -1795,9 +1795,9 @@ iframe#ifr2 {
   height: 30px;
   align-items: center;
   justify-content: center;
-  background-color: #fff;
+  /* background-color: #fff; */
   border-radius: 100%;
-  font-size: x-large;
+  font-size: xx-large;
 }
 
 .lang:hover {
